@@ -80,6 +80,4 @@ export class CountriesService {
         tap( () => this.saveToLocalStorage() ),
       );
   }
-
-
 }
