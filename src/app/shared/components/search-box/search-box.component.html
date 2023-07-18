@@ -2,7 +2,8 @@
 <input
   type="text"
   class="form-control"
+  [value]="initialValue"
   [placeholder]="placeholder"
-  (keyup)="onKeyPress(txtInput.value)"
+  (keyup)="onKeyPress( txtInput.value )"
   #txtInput
 >
